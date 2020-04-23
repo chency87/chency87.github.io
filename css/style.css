@@ -796,3 +796,46 @@ mobile()
   border-color: #fff transparent transparent #fff;
   transform: rotate(45deg);
 }
+.tag-cloud {
+  text-align: center;
+  margin-top: 20px;
+}
+.tag-cloud-title {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.tag-cloud-tags {
+  text-align: center;
+}
+.tag-cloud a {
+  display: inline-block;
+  margin: 0 0.4rem;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  cursor: pointer;
+  line-height: normal;
+  padding: 5px 5px 5px 10px;
+  position: relative;
+  border-radius: 0 5px 5px 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.tag-cloud a:hover {
+  color: #fff724 2 !important;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.tag-cloud-title {
+  text-align: center;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #808080;
+  font-family: Times, TimesNR, 'New Century Schoolbook', Georgia, 'New York', serif;
+}
