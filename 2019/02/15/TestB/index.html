@@ -189,6 +189,44 @@
             
 
             
+
+
+
+
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+            <div id="gitalk-container"></div>
+            <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+            <script type="text/javascript">
+                var gitalk = new Gitalk({
+                    clientID: '5e1fb4b08f0c88d80e3c',
+                    clientSecret: '070ad9992a17decff2ae70e33b292f907817769a',
+                    id: window.location.pathname,
+                    repo: 'https://github.com/chency87/blogcomments',
+                    owner: 'chency87,',
+                    admin: ''
+                })
+                gitalk.render('gitalk-container')
+            </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </div>
 </article>
