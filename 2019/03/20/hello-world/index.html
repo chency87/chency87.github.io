@@ -231,8 +231,6 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 
 
-
-
     <hr>
     <h3>留言:</h3>
     <div id="fb-root"></div>
@@ -243,7 +241,7 @@
         var gitalk = new Gitalk({
             clientID: '5e1fb4b08f0c88d80e3c',
             clientSecret: '070ad9992a17decff2ae70e33b292f907817769a',
-            id: window.location.pathname,
+            id: (window.location.pathname).split("/").pop().substring(0, 49),
             repo: 'blogcomments',
             owner: 'chency87',
             admin: 'chency87'
@@ -254,15 +252,8 @@
 
 
 
-<h1>This is comments </h1>
             </div>
             
-
-
-
-
-
-
         </div>
     </div>
 </article>
