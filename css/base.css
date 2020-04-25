@@ -85,6 +85,17 @@ hr.small {
   letter-spacing: 1px;
   text-decoration: none;
 }
+.navbar-custom .nav li input {
+  margin-left: 15px;
+  padding-left: 10px;
+  width: 200px;
+  border-radius: 15px;
+  border: 2px;
+  border-style: solid;
+  border-color: #404040;
+  background: #fff;
+  font-size: 12px;
+}
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
@@ -100,11 +111,56 @@ hr.small {
   }
   .navbar-custom .nav li a {
     color: #fff;
-    padding: 20px;
+    padding: 18px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
     color: rgba(255,255,255,0.8);
+  }
+  .navbar-custom .nav li .bar7 {
+    height: 12px;
+  }
+  .navbar-custom .nav li .bar7 input {
+    width: 100px;
+    border-radius: 35px;
+    border: 2px;
+    border-style: solid;
+    border-color: #fff;
+    background: transparent;
+    transition: 0.3s;
+    font-size: 13px;
+    padding-left: 12px;
+  }
+  .navbar-custom .nav li .bar7 input:focus {
+    width: 200px;
+  }
+  .navbar-custom .nav li .bar7 input::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  .navbar-custom .nav li .bar7 input:-moz-placeholder {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  .navbar-custom .nav li .bar7 input::-moz-placeholder {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  .navbar-custom .nav li .bar7 input:-ms-input-placeholder {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -143,6 +199,11 @@ hr.small {
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
     color: #0085a1;
+  }
+  .navbar-custom.is-fixed .nav li input {
+    border-style: solid;
+    border-color: #404040;
+    font-size: 12px;
   }
   .navbar-custom.is-visible {
 /* if the user changes the scrolling direction, we show the header */
