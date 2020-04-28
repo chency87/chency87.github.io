@@ -77,18 +77,17 @@ hr.small {
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
+  font-size: 18px;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;
   text-decoration: none;
 }
 .navbar-custom .nav li input {
-  margin-left: 15px;
   padding-left: 10px;
-  width: 200px;
   border-radius: 15px;
   border: 2px;
   border-style: solid;
@@ -96,10 +95,18 @@ hr.small {
   background: #fff;
   font-size: 12px;
 }
+@media only screen and (max-width: 768px) {
+  .navbar-custom .nav .search-input {
+    display: none;
+  }
+}
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
     border-bottom: 1px solid transparent;
+  }
+  .navbar-custom body {
+    font-size: 20px;
   }
   .navbar-custom .navbar-brand {
     color: #fff;
@@ -109,74 +116,129 @@ hr.small {
   .navbar-custom .navbar-brand:focus {
     color: rgba(255,255,255,0.8);
   }
+  .navbar-custom .nav li {
+    margin: 7px 0 8px;
+    height: 45px;
+  }
   .navbar-custom .nav li a {
     color: #fff;
-    padding: 18px;
+    padding-bottom: 10px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
     color: rgba(255,255,255,0.8);
   }
-  .navbar-custom .nav li .bar7 {
-    height: 12px;
+  .navbar-custom .nav li a:active {
+    background: transparent;
   }
   .navbar-custom .nav li .bar7 input {
     width: 100px;
-    border-radius: 35px;
-    border: 2px;
+    border-radius: 0px;
+    border: 1px;
     border-style: solid;
     border-color: #fff;
     background: transparent;
     transition: 0.3s;
     font-size: 13px;
     padding-left: 12px;
+    text-decoration: none;
+    font-size: 14px;
   }
   .navbar-custom .nav li .bar7 input:focus {
-    width: 200px;
+    width: 350px;
   }
   .navbar-custom .nav li .bar7 input::-webkit-input-placeholder {
     color: #fff;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    text-decoration: none;
   }
   .navbar-custom .nav li .bar7 input:-moz-placeholder {
     color: #fff;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    text-decoration: none;
   }
   .navbar-custom .nav li .bar7 input::-moz-placeholder {
     color: #fff;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    text-decoration: none;
   }
   .navbar-custom .nav li .bar7 input:-ms-input-placeholder {
     color: #fff;
+  }
+  .navbar-custom .nav li .bar7 button {
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    top: 5px;
+    right: 20px;
+    cursor: pointer;
+    position: absolute;
+  }
+  .navbar-custom .nav li .bar7 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 6px;
+    color: #f9f0da;
+  }
+  .navbar-custom .nav li .bar7 .search-result-list {
+    padding: 4px 0;
+    background-color: #fff;
+    width: 350px;
+    position: absolute;
+    right: 15px;
+    top: 42px;
+    margin: 0;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transition: opacity 0.6s cubic-bezier(0.68, -0.55, 0.39, 1.3) -0.3s, -webkit-transform 0.6s cubic-bezier(0.68, -0.55, 0.39, 1.3) -0.2s;
+    transition: opacity 0.6s cubic-bezier(0.68, -0.55, 0.39, 1.3) -0.3s, -webkit-transform 0.6s cubic-bezier(0.68, -0.55, 0.39, 1.3) -0.2s;
+    transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.39, 1.3) -0.2s, opacity 0.6s cubic-bezier(0.68, -0.55, 0.39, 1.3) -0.3s;
+    transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.39, 1.3) -0.2s, opacity 0.6s cubic-bezier(0.68, -0.55, 0.39, 1.3) -0.3s, -webkit-transform 0.6s cubic-bezier(0.68, -0.55, 0.39, 1.3) -0.2s;
+  }
+  .navbar-custom .nav li .bar7 .search-result-list li {
+    color: #404040;
+    list-style: none;
+    margin: 0;
+    height: auto !important;
+    padding: 8px;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    cursor: pointer;
+  }
+  .navbar-custom .nav li .bar7 .search-result-list li:hover {
+    background-color: #0ff;
+  }
+  .navbar-custom .nav li .bar7 .search-result-list li .search-keyword {
+    font-weight: bold;
+    color: #f00;
+    background-color: #fff68f;
+    overflow-wrap: break-word;
+  }
+  .navbar-custom .nav li .bar7 .search-result-list li a {
+    color: #404040;
     font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
+    margin: 0;
+  }
+  .navbar-custom .nav li .bar7 .search-result-list li a p {
+    color: #696969;
+    font-size: 6px;
+    font-family: 'Lora', 'Times New Roman', serif;
+    margin: 0;
     text-decoration: none;
+    text-transform: none;
+    font-weight: none;
+    letter-spacing: 0px;
+  }
+  .navbar-custom .nav li .bar7 .hidden {
+    opacity: 0;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    pointer-events: none;
+    -webkit-transition: opacity 0.6s cubic-bezier(0.71, -0.22, 0.33, 1.09) 0.1s, -webkit-transform 0.6s cubic-bezier(0.71, -0.22, 0.33, 1.09);
+    transition: opacity 0.6s cubic-bezier(0.71, -0.22, 0.33, 1.09) 0.1s, -webkit-transform 0.6s cubic-bezier(0.71, -0.22, 0.33, 1.09);
+    transition: transform 0.6s cubic-bezier(0.71, -0.22, 0.33, 1.09), opacity 0.6s cubic-bezier(0.71, -0.22, 0.33, 1.09) 0.1s;
+    transition: transform 0.6s cubic-bezier(0.71, -0.22, 0.33, 1.09), opacity 0.6s cubic-bezier(0.71, -0.22, 0.33, 1.09) 0.1s, -webkit-transform 0.6s cubic-bezier(0.71, -0.22, 0.33, 1.09);
   }
 }
 @media only screen and (min-width: 1170px) {
-  .navbar-custom {
-    -webkit-transition: background-color 0.3s;
-    -moz-transition: background-color 0.3s;
-    transition: background-color 0.3s;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  .navbar-custom.is-fixed {
+  .is-fixed {
 /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
@@ -186,26 +248,39 @@ hr.small {
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
   }
-  .navbar-custom.is-fixed .navbar-brand {
+  .is-fixed .navbar-brand {
     color: #404040;
   }
-  .navbar-custom.is-fixed .navbar-brand:hover,
-  .navbar-custom.is-fixed .navbar-brand:focus {
+  .is-fixed .navbar-brand:hover,
+  .is-fixed .navbar-brand:focus {
     color: #0085a1;
   }
-  .navbar-custom.is-fixed .nav li a {
+  .is-fixed .nav li a {
     color: #404040;
   }
-  .navbar-custom.is-fixed .nav li a:hover,
-  .navbar-custom.is-fixed .nav li a:focus {
+  .is-fixed .nav li a:hover,
+  .is-fixed .nav li a:focus {
     color: #0085a1;
   }
-  .navbar-custom.is-fixed .nav li input {
-    border-style: solid;
+  .is-fixed .nav li .bar7 input {
     border-color: #404040;
-    font-size: 12px;
   }
-  .navbar-custom.is-visible {
+  .is-fixed .nav li .bar7 input::-webkit-input-placeholder {
+    color: #404040;
+  }
+  .is-fixed .nav li .bar7 input:-moz-placeholder {
+    color: #404040;
+  }
+  .is-fixed .nav li .bar7 input::-moz-placeholder {
+    color: #404040;
+  }
+  .is-fixed .nav li .bar7 input:-ms-input-placeholder {
+    color: #404040;
+  }
+  .is-fixed .nav li .bar7 button {
+    color: #404040;
+  }
+  .is-visible {
 /* if the user changes the scrolling direction, we show the header */
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
@@ -300,7 +375,7 @@ hr.small {
   color: #0085a1;
 }
 .post-preview > a > .post-title {
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -311,8 +386,11 @@ hr.small {
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.3;
 }
 .post-preview > .post-meta {
+  font-family: 'Lora', 'Times New Roman', serif;
   color: #808080;
   font-size: 18px;
   font-style: italic;
@@ -332,7 +410,15 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 36px;
+    font-size: 30px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .post-preview > a > .post-subtitle {
+    font-size: 16px;
+  }
+  .post-preview > .post-meta {
+    font-size: 18px;
   }
 }
 .section-heading {

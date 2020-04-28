@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Flipped">
+        <meta property="og:title" content="Contact">
     
 
     <!--Open Graph Description-->
@@ -33,7 +33,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website">
+        <meta property="og:type" content="article">
     
 
     <!--Page Cover-->
@@ -44,7 +44,7 @@
 
     <!-- Title -->
     
-    <title>归档：2019/2 - Flipped</title>
+    <title>Contact - Flipped</title>
 
     <!-- Bootstrap Core CSS -->
     <!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>-->
@@ -194,48 +194,138 @@
 
 
     <!-- Main Content -->
-    
+     
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
-<header class="intro-header" style="background-image: url('/img/contact-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>2019/2</h1>
+
+    <header class="intro-header" style="background-image: url('/img/about-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>Contact</h1>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            
-                <div class="post-preview">
-    <a href="/2019/02/15/TestB/">
-        <h1 class="post-title archive">
-            TestB
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
+    <!-- Main Content -->
+   <div class="container">
         
-        2019-02-15
-    </p>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                
+                    <!-- </header> -->
+
+
+
+
+
+
+<div id="contact-content">
+
+
+    <h5 class="tag-cloud-title">
+
+        Contact Me
+    </h5>
+
+    <div class="tag-cloud">
+
+
+        <form class="form-horizontal" id="my-form" action="https://formspree.io/xdownnlw" method="POST" role="form">
+
+            <div class="form-group">
+                    <label for="name" class="col-sm-2 control-label">Name:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name">
+                    </div>
+            </div>
+            <div class="form-group">
+                    <label for="email" class="col-sm-2 control-label">Email:</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email">
+                    </div>
+            </div>
+            <div class="form-group">
+                    <label for="message" class="col-sm-2 control-label">Message:</label>
+                    <div class="col-sm-10">
+                        <textarea type="text" class="form-control" rows="4" id="message" name="message"></textarea>
+                        
+                    </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default" id="my-form-button">Submit</button>
+                </div>
+            </div>
+            <p id="my-form-status"></p>       
+        </form>
+
+        <!-- Place this script at the end of the body tag -->
+
+        <script>
+            window.addEventListener("DOMContentLoaded", function () {
+
+                // get the form elements defined in your form HTML above
+
+                var form = document.getElementById("my-form");
+                var button = document.getElementById("my-form-button");
+                var status = document.getElementById("my-form-status");
+
+                // Success and Error functions for after the form is submitted
+
+                function success() {
+                    form.reset();
+                    button.style = "display: none ";
+                    status.innerHTML = "Thanks!";
+                }
+
+                function error() {
+                    status.innerHTML = "Oops! There was a problem.";
+                }
+
+                // handle the form submission event
+
+                form.addEventListener("submit", function (ev) {
+                    ev.preventDefault();
+                    var data = new FormData(form);
+                    ajax(form.method, form.action, data, success, error);
+                });
+            });
+
+            // helper function for sending an AJAX request
+
+            function ajax(method, url, data, success, error) {
+                var xhr = new XMLHttpRequest();
+                xhr.open(method, url);
+                xhr.setRequestHeader("Accept", "application/json");
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                    if (xhr.status === 200) {
+                        success(xhr.response, xhr.responseType);
+                    } else {
+                        error(xhr.status, xhr.response, xhr.responseType);
+                    }
+                };
+                xhr.send(data);
+            }
+        </script>
+    </div>
 </div>
-            
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
-</ul>
+
+
+
+                                     
+                <!--  -->
+                <div class="archive-before-pagination"></div>
+            </div>
         </div>
     </div>
-</div>
+ 
+
+ 
 
 
     <!-- Footer -->

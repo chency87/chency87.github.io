@@ -73,6 +73,9 @@
   color: #fff;
   text-decoration: none;
 }
+.hvr-sweep-to-right {
+  border-radius: 999em;
+}
 /*toc*/
 .toc-article {
   background: #eee;
@@ -147,60 +150,28 @@ mobile()
   color: #808080;
   cursor: pointer;
 }
-/*
-#totop
-  position:fixed
-  bottom:50px
-  right:30px
-  text-align: center
-  z-index: 100
-  a
-    display: block
-    padding 4px 8px
-    color: #fff
-    background-color: #258fb8
-    cursor: pointer
-    border-radius: 5px
-    &:hover
-      opacity: .8
-*/
-.totop {
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  height: 40px;
-  width: 40px;
+.back-to-top {
   text-align: center;
-  padding-top: 20px;
-  background-color: #d3d3d3;
-  border-radius: 15%;
-  overflow: hidden;
+  display: none;
+  position: fixed;
+  right: 80px;
+  bottom: 40px;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-out;
+  z-index: 10;
   cursor: pointer;
 }
-.totop:hover:before {
-  top: 50%;
+.back-to-top:hover {
+  transform: translateY(-5px);
 }
-.totop:hover .box-in {
-  visibility: hidden;
-}
-.totop:before {
-  position: absolute;
-  top: -50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-/*    content:'回到顶部';*/
-  width: 40px;
-  color: #cd853f;
-  font-weight: bold;
-}
-.box-in {
-  visibility: visible;
+.back-to-top i {
   display: inline-block;
-  height: 20px;
-  width: 20px;
-  border: 3px solid #000;
-  border-color: #fff transparent transparent #fff;
-  transform: rotate(45deg);
+  margin-top: -6px;
+  font-size: 15px;
 }
 /*tag-cloud*/
 .tag-cloud {

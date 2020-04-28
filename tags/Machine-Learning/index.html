@@ -72,10 +72,18 @@
     <!-- <link href="https://cdn.bootcss.com/featherlight/1.7.13/featherlight.gallery.min.css" type="text/css" rel="stylesheet"> -->
     <!-- <link href="https://cdn.bootcss.com/lightgallery/1.3.5/css/lightgallery.min.css" rel="stylesheet"> -->
     <!-- Google Analytics -->
+   
     
 
 
+
+    <!-- hover.css-->
+
+    <link href="/css/hover.css" type="text/css" rel="stylesheet">
+
     <!-- favicon -->
+    
+    <link rel="icon" href="/img/favicon.ico">
     
 
 
@@ -88,7 +96,7 @@
     <!-- Menu -->
     <!-- Navigation -->
 <!-- <nav class="navbar navbar-default navbar-custom ">navbar-fixed-top navbar-visibled -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+<nav class="navbar navbar-default navbar-custom navbar-static-top navbar-fixed-top is-fixed is-visible">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -103,69 +111,87 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right ">
-        
-                <li class="nav-item">
-                    <!-- <form class="search" action="" method="get" accept-charset="utf-8">
-						<input type="search" id="search" autocomplete="off" name="q" maxlength="20" placeholder="search" />
-					</form> -->
-                    <form class="navbar-form search bar7" action="" method="get" accept-charset="utf-8">
-                        <input type="text" id="search" autocomplete="off" name="q" maxlength="20" placeholder="search">
-                        <!-- <input type="text" placeholder="search" name="crid"> -->
-                        <!-- <button type="submit"></button> -->
-                    </form>
-                </li>
-                
-                    <li class="nav-item">
-                        <a href="/">
+        <div id="meblog_navbar">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right ">                
+                    
+                        <li class="nav-item hvr-underline-from-center hvr-float-shadow">
+                            <a href="/">
+    
+                                
+    
+                                    Home
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="nav-item hvr-underline-from-center hvr-float-shadow">
+                            <a href="/tags">
+    
+                                
+    
+                                    Tags
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="nav-item hvr-underline-from-center hvr-float-shadow">
+                            <a href="/categories">
+    
+                                
+    
+                                    Categories
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="nav-item hvr-underline-from-center hvr-float-shadow">
+                            <a href="/about">
+    
+                                
+    
+                                    About
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="nav-item hvr-underline-from-center hvr-float-shadow">
+                            <a href="/contact">
+    
+                                
+    
+                                    Contact
+                                
+                            </a>
+                        </li>
+                    
+    
+                    
+    
+                        <li class="nav-item search-input">
+                            <form class="navbar-form search bar7" action="" method="get" accept-charset="utf-8">
+                                <input type="text" id="local-search-input" autocomplete="off" name="q" maxlength="50" placeholder="search">
+                                <button type="button"></button>
+                                <ul class="search-result-list hidden" id="local-search-result"> </ul>
+                            </form>
+                        </li>
+                    
 
-                            
+                </ul>
+            </div>
 
-                                Home
-                            
-                        </a>
-                    </li>
-                
-                    <li class="nav-item">
-                        <a href="/tags">
-
-                            
-
-                                Tags
-                            
-                        </a>
-                    </li>
-                
-                    <li class="nav-item">
-                        <a href="/categories">
-
-                            
-
-                                Categories
-                            
-                        </a>
-                    </li>
-                
-                    <li class="nav-item">
-                        <a href="/about">
-
-                            
-
-                                About
-                            
-                        </a>
-                    </li>
-                
-
-                
-                
-            </ul>
         </div>
+        
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
+    
 </nav>
+
+
+
+
+
 
     <!-- Main Content -->
     
@@ -278,12 +304,21 @@
             
             </div>
         </div>
+
+
+        <div class="back-to-top" id="back-to-top">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                <!-- <i class="iconfont icon-up"></i> -->
+        </div>
     </div>
 </footer>
 
 
     <!-- After footer scripts -->
     
+
+
+
 <!-- jQuery -->
 <script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
 
@@ -294,6 +329,21 @@
 <!-- Gallery -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <!-- <script src="https://cdn.bootcss.com/lightgallery/1.3.5/js/lightgallery.min.js" type="text/javascript" charset="utf-8"></script> -->
+
+<script src="/js/meblog.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/localsearch.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+    <script type="text/javascript">      
+      var search_path = "search.xml";
+      if (search_path.length == 0) {
+          search_path = "search.xml";
+      }
+      var path = "/" + search_path;
+      searchFunc(path, 'local-search-input', 'local-search-result');
+    </script>
+ 
 
 
 
@@ -317,12 +367,6 @@
 
 
 
-    <!-- To Top -->
-    
-<div id="totop" class="totop">
-    <div class="box-in"></div>
-</div> 
-    <script src="/js/totop.js"></script>
 </body>
 
 </html>
