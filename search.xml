@@ -3,8 +3,10 @@
   <entry>
     <title>Acknowledgement</title>
     <url>/2018/04/23/Acknowledgement/</url>
-    <content><![CDATA[<h3 id="Acknowledgement"><a href="#Acknowledgement" class="headerlink" title="Acknowledgement"></a>Acknowledgement</h3><p>Thanks to the open source of CleanBlog”<br><a href="http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/&quot;" target="_blank" rel="noopener">http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/&quot;</a></p>
-]]></content>
+    <content><![CDATA[<h3 id="Acknowledgement"><a class="header-anchor" href="#Acknowledgement">¶</a> Acknowledgement</h3>
+<p>Thanks to the open source of CleanBlog&quot;<br>
+<a href="http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/" target="_blank" rel="noopener">http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/</a>&quot;</p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
       <tags>
         <tag>hexo</tag>
         <tag>acknowledgement</tag>
@@ -13,13 +15,60 @@
   <entry>
     <title>TestB</title>
     <url>/2019/02/15/TestB/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>Edge Computing Security</title>
+    <url>/2019/11/26/Edge-Computing-Security/</url>
+    <content><![CDATA[<h2 id="Publication:  Edge Computing Security White Paper"><a class="header-anchor" href="#Publication:  Edge Computing Security White Paper">¶</a> Publication:  Edge Computing Security White Paper</h2>
+<blockquote>
+<p>Chief Editor, The full report is now available on <a href="http://www.ecconsortium.org/Uploads/file/20191126/1574772963483806.pdf" target="_blank" rel="noopener">ECC(Edge Computing Consortium)</a></p>
+</blockquote>
+<p>边缘计算正从边缘计算1.0走向2.0，从定义走向技术，从共识走向实践<br>
+边缘计算的CROSS价值推动计算模型从集中式的云计算走向更加分布式的边缘计算，为传统的网络架构带来了极大的改变，这些改变促进了技术和业务的发展，同时也将网络攻击威胁引入了网络边缘<br>
+边缘计算作为行业数字化的关键支撑，涉及到关键资产信息联网，一旦存在安全问题，其影响力与互联网收到安全威胁的影响不可同日而语<br>
+边缘安全涉及跨越云计算和边缘计算纵深的安全防护体系，增强边缘基础设施、网络、应用、数据识别和抵抗各种安全威胁的能力，为边缘计算的发展构建安全可信环境，加速并保障边缘计算产业发展。</p>
+<p>就边缘计算环境中潜在的攻击窗口进行分析，包括边缘云接入（云-边接入，边-端接入），边缘云服务器（硬件、软件、数据），边缘云管理（账号、管理/服务接口、管理人员）等层面的攻击，如下图和下表所示，汇总编写了边缘计算面临的12个最重要的安全挑战。</p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      <categories>
+        <category>Edge Computing</category>
+        <category>White Paper</category>
+      </categories>
+      <tags>
+        <tag>Edge Computing</tag>
+        <tag>Security</tag>
+        <tag>Framework</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/03/20/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick Start"><a class="header-anchor" href="#Quick Start">¶</a> Quick Start</h2>
+<h3 id="Create a new post"><a class="header-anchor" href="#Create a new post">¶</a> Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run server"><a class="header-anchor" href="#Run server">¶</a> Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate static files"><a class="header-anchor" href="#Generate static files">¶</a> Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy to remote sites"><a class="header-anchor" href="#Deploy to remote sites">¶</a> Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      <tags>
+        <tag>hello world</tag>
+      </tags>
   </entry>
   <entry>
     <title>Images</title>
     <url>/2019/04/23/images/</url>
-    <content><![CDATA[<h2 id="push-a-image-with-gallery"><a href="#push-a-image-with-gallery" class="headerlink" title="push a image with gallery"></a>push a image with gallery</h2><ol>
-<li><figure class="highlight plain"><figcaption><span>new title```</span></figcaption><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">2. input contents:</span><br><span class="line"></span><br><span class="line">```c++</span><br><span class="line"> </span><br><span class="line">photos:</span><br><span class="line">- /assets/yourImg</span><br><span class="line">- /assets/yourImg</span><br><span class="line">- /assets/yourImg</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="push a image with gallery"><a class="header-anchor" href="#push a image with gallery">¶</a> push a image with gallery</h2>
+<ol>
+<li>
+<figure class="highlight plain"><figcaption><span>new title```</span></figcaption><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">2. input contents:</span><br><span class="line"></span><br><span class="line">```c++</span><br><span class="line"> </span><br><span class="line">photos:</span><br><span class="line">- /assets/yourImg</span><br><span class="line">- /assets/yourImg</span><br><span class="line">- /assets/yourImg</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <p><img src="img1.jpg" alt=""></p>
@@ -29,7 +78,7 @@
 <li>copy the img to the folder which has the same name with the folder</li>
 <li>edit your paper</li>
 </ol>
-]]></content>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
       <categories>
         <category>How to use hexo</category>
       </categories>
@@ -41,67 +90,12 @@
   <entry>
     <title>publication: Information Security Risk Assessment Method for Ship Control System Based on Fuzzy Sets and Attack Trees</title>
     <url>/2019/01/11/publication-Information-Security-Risk-Assessment-Method-for-Ship-Control-System-Based-on-Fuzzy-Sets-and-Attack-Trees/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
       <tags>
+        <tag>Security</tag>
         <tag>Risk Assessment</tag>
         <tag>Attack Tree</tag>
         <tag>Fuzzy Sets</tag>
-        <tag>Security</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Edge Computing Security</title>
-    <url>/2019/11/26/Edge-Computing-Security/</url>
-    <content><![CDATA[<h2 id="Publication-Edge-Computing-Security-White-Paper"><a href="#Publication-Edge-Computing-Security-White-Paper" class="headerlink" title="Publication:  Edge Computing Security White Paper"></a>Publication:  Edge Computing Security White Paper</h2><blockquote>
-<p>Chief Editor, The full report is now available on <a href="http://www.ecconsortium.org/Uploads/file/20191126/1574772963483806.pdf" target="_blank" rel="noopener">ECC(Edge Computing Consortium)</a>  </p>
-</blockquote>
-<p>边缘计算正从边缘计算1.0走向2.0，从定义走向技术，从共识走向实践<br>边缘计算的CROSS价值推动计算模型从集中式的云计算走向更加分布式的边缘计算，为传统的网络架构带来了极大的改变，这些改变促进了技术和业务的发展，同时也将网络攻击威胁引入了网络边缘<br>边缘计算作为行业数字化的关键支撑，涉及到关键资产信息联网，一旦存在安全问题，其影响力与互联网收到安全威胁的影响不可同日而语<br>边缘安全涉及跨越云计算和边缘计算纵深的安全防护体系，增强边缘基础设施、网络、应用、数据识别和抵抗各种安全威胁的能力，为边缘计算的发展构建安全可信环境，加速并保障边缘计算产业发展。</p>
-<p>就边缘计算环境中潜在的攻击窗口进行分析，包括边缘云接入（云-边接入，边-端接入），边缘云服务器（硬件、软件、数据），边缘云管理（账号、管理/服务接口、管理人员）等层面的攻击，如下图和下表所示，汇总编写了边缘计算面临的12个最重要的安全挑战。</p>
-]]></content>
-      <categories>
-        <category>Edge Computing</category>
-        <category>White Paper</category>
-      </categories>
-      <tags>
-        <tag>Security</tag>
-        <tag>Edge Computing</tag>
-        <tag>Framework</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>toeflmaterial</title>
-    <url>/2020/04/28/toeflmaterial/</url>
-    <content><![CDATA[<h3 id="A-recording-of-my-toefl-studying"><a href="#A-recording-of-my-toefl-studying" class="headerlink" title="A recording of my toefl studying"></a>A recording of my toefl studying</h3><blockquote>
-<p>Question: how can i learn better</p>
-</blockquote>
-<ol>
-<li>studying</li>
-<li>word</li>
-</ol>
-]]></content>
-      <categories>
-        <category>TOEFL</category>
-      </categories>
-      <tags>
-        <tag>Toefl_writing</tag>
-        <tag>TOEFL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2019/03/20/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-      <tags>
-        <tag>hello world</tag>
       </tags>
   </entry>
   <entry>
@@ -109,12 +103,35 @@
     <url>/2019/12/05/publication-Key-Process-Protection-of-High-Dimensional-Process-Data-in-Complex-Production/</url>
     <content><![CDATA[<p><strong>Abstract</strong></p>
 <p>In order to solve the problem of locating and protecting key processes and detecting outliers efficiently in complex industrial processes. An anomaly detection system which is based on the two-layer model fusion frame is designed in this paper. The key process is located by using the random forest model firstly, then the process data feature selection, dimension reduction and noise reduction are processed. Finally, the validity of the model is verified by simulation experiments. It is shown that this method can effectively reduce the prediction accuracy variance and improve the generalization ability of the traditional anomaly detection model from the experimental results.</p>
-]]></content>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
       <tags>
         <tag>Machine Learning</tag>
         <tag>Outlier Detection</tag>
         <tag>Anomaly Detection</tag>
         <tag>Rule Tree Model</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Toefl-Material</title>
+    <url>/2020/04/28/toeflmaterial/</url>
+    <content><![CDATA[<h3 id="A recording of my toefl studying"><a class="header-anchor" href="#A recording of my toefl studying">¶</a> A recording of my toefl studying</h3>
+<blockquote>
+<p>Question: how can i learn better</p>
+</blockquote>
+<ol>
+<li>studying</li>
+<li>word</li>
+</ol>
+<pre class="mermaid">graph LR
+A>Astronomy]--> B[TPO 29 L4]
+B --> C[Space Age]</pre>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      <categories>
+        <category>TOEFL</category>
+      </categories>
+      <tags>
+        <tag>Toefl_writing</tag>
+        <tag>TOEFL</tag>
       </tags>
   </entry>
 </search>

@@ -233,7 +233,7 @@
             <!-- article toc -->
                <!--02-->
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
                     
                 </div>
             
@@ -380,7 +380,14 @@
     </script>
  
 
-
+ 
+   <script src="https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js"></script>
+   <script>
+     if (window.mermaid) {
+       mermaid.initialize({theme: 'dark'});
+     }
+   </script>
+ 
 
 <script>
     (function(){
