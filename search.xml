@@ -11,25 +11,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Edge Computing Security</title>
-    <url>/2019/11/26/Edge-Computing-Security/</url>
-    <content><![CDATA[<h2 id="Publication-Edge-Computing-Security-White-Paper"><a href="#Publication-Edge-Computing-Security-White-Paper" class="headerlink" title="Publication:  Edge Computing Security White Paper"></a>Publication:  Edge Computing Security White Paper</h2><blockquote>
-<p>Chief Editor, The full report is now available on <a href="http://www.ecconsortium.org/Uploads/file/20191126/1574772963483806.pdf" target="_blank" rel="noopener">ECC(Edge Computing Consortium)</a>  </p>
-</blockquote>
-<p>边缘计算正从边缘计算1.0走向2.0，从定义走向技术，从共识走向实践<br>边缘计算的CROSS价值推动计算模型从集中式的云计算走向更加分布式的边缘计算，为传统的网络架构带来了极大的改变，这些改变促进了技术和业务的发展，同时也将网络攻击威胁引入了网络边缘<br>边缘计算作为行业数字化的关键支撑，涉及到关键资产信息联网，一旦存在安全问题，其影响力与互联网收到安全威胁的影响不可同日而语<br>边缘安全涉及跨越云计算和边缘计算纵深的安全防护体系，增强边缘基础设施、网络、应用、数据识别和抵抗各种安全威胁的能力，为边缘计算的发展构建安全可信环境，加速并保障边缘计算产业发展。</p>
-<p>就边缘计算环境中潜在的攻击窗口进行分析，包括边缘云接入（云-边接入，边-端接入），边缘云服务器（硬件、软件、数据），边缘云管理（账号、管理/服务接口、管理人员）等层面的攻击，如下图和下表所示，汇总编写了边缘计算面临的12个最重要的安全挑战。</p>
-]]></content>
-      <categories>
-        <category>Edge Computing</category>
-        <category>White Paper</category>
-      </categories>
-      <tags>
-        <tag>Edge Computing</tag>
-        <tag>Security</tag>
-        <tag>Framework</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2019/03/20/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -51,9 +32,23 @@
       </tags>
   </entry>
   <entry>
-    <title>TestB</title>
-    <url>/2019/02/15/TestB/</url>
-    <content><![CDATA[]]></content>
+    <title>Edge Computing Security</title>
+    <url>/2019/11/26/Edge-Computing-Security/</url>
+    <content><![CDATA[<h2 id="Publication-Edge-Computing-Security-White-Paper"><a href="#Publication-Edge-Computing-Security-White-Paper" class="headerlink" title="Publication:  Edge Computing Security White Paper"></a>Publication:  Edge Computing Security White Paper</h2><blockquote>
+<p>Chief Editor, The full report is now available on <a href="http://www.ecconsortium.org/Uploads/file/20191126/1574772963483806.pdf" target="_blank" rel="noopener">ECC(Edge Computing Consortium)</a>  </p>
+</blockquote>
+<p>边缘计算正从边缘计算1.0走向2.0，从定义走向技术，从共识走向实践<br>边缘计算的CROSS价值推动计算模型从集中式的云计算走向更加分布式的边缘计算，为传统的网络架构带来了极大的改变，这些改变促进了技术和业务的发展，同时也将网络攻击威胁引入了网络边缘<br>边缘计算作为行业数字化的关键支撑，涉及到关键资产信息联网，一旦存在安全问题，其影响力与互联网收到安全威胁的影响不可同日而语<br>边缘安全涉及跨越云计算和边缘计算纵深的安全防护体系，增强边缘基础设施、网络、应用、数据识别和抵抗各种安全威胁的能力，为边缘计算的发展构建安全可信环境，加速并保障边缘计算产业发展。</p>
+<p>就边缘计算环境中潜在的攻击窗口进行分析，包括边缘云接入（云-边接入，边-端接入），边缘云服务器（硬件、软件、数据），边缘云管理（账号、管理/服务接口、管理人员）等层面的攻击，如下图和下表所示，汇总编写了边缘计算面临的12个最重要的安全挑战。</p>
+]]></content>
+      <categories>
+        <category>Edge Computing</category>
+        <category>White Paper</category>
+      </categories>
+      <tags>
+        <tag>Edge Computing</tag>
+        <tag>Security</tag>
+        <tag>Framework</tag>
+      </tags>
   </entry>
   <entry>
     <title>Images</title>
@@ -82,6 +77,11 @@
         <tag>hexo</tag>
         <tag>hello world</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>TestB</title>
+    <url>/2019/02/15/TestB/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>publication: Information Security Risk Assessment Method for Ship Control System Based on Fuzzy Sets and Attack Trees</title>
