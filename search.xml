@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>TestB</title>
-    <url>/2019/02/15/TestB/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Acknowledgement</title>
     <url>/2018/04/23/Acknowledgement/</url>
     <content><![CDATA[<h3 id="Acknowledgement"><a href="#Acknowledgement" class="headerlink" title="Acknowledgement"></a>Acknowledgement</h3><p>Thanks to the open source of CleanBlog”<br><a href="http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/&quot;" target="_blank" rel="noopener">http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/&quot;</a></p>
@@ -16,25 +11,9 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2019/03/20/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-      <tags>
-        <tag>hello world</tag>
-      </tags>
+    <title>TestB</title>
+    <url>/2019/02/15/TestB/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Images</title>
@@ -73,19 +52,6 @@
         <tag>Attack Tree</tag>
         <tag>Fuzzy Sets</tag>
         <tag>Security</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>publication: Key Process Protection of High Dimensional Process Data in Complex Production</title>
-    <url>/2019/12/05/publication-Key-Process-Protection-of-High-Dimensional-Process-Data-in-Complex-Production/</url>
-    <content><![CDATA[<p><strong>Abstract</strong></p>
-<p>In order to solve the problem of locating and protecting key processes and detecting outliers efficiently in complex industrial processes. An anomaly detection system which is based on the two-layer model fusion frame is designed in this paper. The key process is located by using the random forest model firstly, then the process data feature selection, dimension reduction and noise reduction are processed. Finally, the validity of the model is verified by simulation experiments. It is shown that this method can effectively reduce the prediction accuracy variance and improve the generalization ability of the traditional anomaly detection model from the experimental results.</p>
-]]></content>
-      <tags>
-        <tag>Machine Learning</tag>
-        <tag>Outlier Detection</tag>
-        <tag>Anomaly Detection</tag>
-        <tag>Rule Tree Model</tag>
       </tags>
   </entry>
   <entry>
@@ -128,6 +94,40 @@ B --> C[Space Age]</pre>
         <tag>Security</tag>
         <tag>Edge Computing</tag>
         <tag>Framework</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/03/20/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>hello world</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>publication: Key Process Protection of High Dimensional Process Data in Complex Production</title>
+    <url>/2019/12/05/publication-Key-Process-Protection-of-High-Dimensional-Process-Data-in-Complex-Production/</url>
+    <content><![CDATA[<p><strong>Abstract</strong></p>
+<p>In order to solve the problem of locating and protecting key processes and detecting outliers efficiently in complex industrial processes. An anomaly detection system which is based on the two-layer model fusion frame is designed in this paper. The key process is located by using the random forest model firstly, then the process data feature selection, dimension reduction and noise reduction are processed. Finally, the validity of the model is verified by simulation experiments. It is shown that this method can effectively reduce the prediction accuracy variance and improve the generalization ability of the traditional anomaly detection model from the experimental results.</p>
+]]></content>
+      <tags>
+        <tag>Machine Learning</tag>
+        <tag>Outlier Detection</tag>
+        <tag>Anomaly Detection</tag>
+        <tag>Rule Tree Model</tag>
       </tags>
   </entry>
 </search>
