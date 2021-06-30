@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laplace Blog on Laplace</title>
+    <link>https://www.dongkeai.cn/blog/</link>
+    <description>Recent content in Laplace Blog on Laplace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jan 2021 21:29:57 +0800</lastBuildDate><atom:link href="https://www.dongkeai.cn/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://www.dongkeai.cn/blog/markdown-syntax/</link>
+      <pubDate>Sun, 03 Jan 2021 21:29:57 +0800</pubDate>
+      
+      <guid>https://www.dongkeai.cn/blog/markdown-syntax/</guid>
+      <description>H1-H1demo 长恨歌 H2-H2Demo H3-H3Demo H4-H4Demo H5 h6 Blockquote Hugo is the fastest framework in the world. Table name age address 孙悟空 500 花果山 Tony 23 Street Nan Tom 18 Canada Test of programming language &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt;</description>
+    </item>
+    
+  </channel>
+</rss>
