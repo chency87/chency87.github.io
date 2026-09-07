@@ -1,0 +1,3 @@
+[submodule "themes/brief"]
+	path = themes/brief
+	url = https://github.com/chency87/hugo-theme-brief.git
