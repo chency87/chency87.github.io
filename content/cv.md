@@ -67,10 +67,10 @@ publications:
   venue: '***The VLDB Journal 2026***'
 - title: '**ParSEval: Plan-aware Test Database Generation for SQL Equivalence Evaluation**'
   authors: '**Chunyu Chen**, Zhengjie Miao, Yong Zhang, Jiannan Wang'
-  venue: '*VLDB 2025*'
+  venue: '*VLDB 2025*, London, United Kingdom'
 - title: '**BQSched: A Non-Intrusive Scheduler for Batch Concurrent Queries via Reinforcement Learning**'
   authors: Chenhao Xu, **Chunyu Chen**, Jinglin Peng, Jun Gao, Jiannan Wang
-  venue: '*ICDE 2024*'
+  venue: '*ICDE 2024*, Hong Kong'
 - title: '**EVE-Bench: Diagnostic Evaluation of LLMs’ Capabilities in SQL Reasoning**'
   authors: Xinyi Huang **^\*^**, **Chunyu Chen ^\*^**, Zhengjie Miao
 - title: Privacy-Preserving Publicly Verifiable Databases
