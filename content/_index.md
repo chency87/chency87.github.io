@@ -15,7 +15,7 @@ section_order: [publications, projects, education, teaching, experience]
 publications:
   - title: "**EVE-Bench: Diagnostic Evaluation of LLMs’ Capabilities in SQL Reasoning**"
     authors: 'Xinyi Huang **^\*^**, **Chunyu Chen ^\*^**, Zhengjie Miao'
-    venue: "underreview"
+    venue: "under review"
 
   - title: "**[ParSEval: Interactive Counterexample-driven Evaluation for Text-to-SQL](https://www.vldb.org/pvldb/vol19/p4846-miao.pdf)**"
     authors: "**Chunyu Chen**, Zhengjie Miao, Yong Zhang, Jiannan Wang"
@@ -40,25 +40,25 @@ projects:
     summary: "Plan-aware test database generation for evaluating SQL query equivalence, with interactive counterexamples for Text-to-SQL evaluation."
     tags: [SQL, Query equivalence, Text-to-SQL]
 teaching:
-  - role: "Teaching Assistant"
+  - role: "TA"
     organization: "CMPT 733 Big Data Programming II · Simon Fraser University"
-    dates: "Spring 2025"
-  - role: "Teaching Assistant"
+    dates: "Spring 2025, Spring 2026"
+  - role: "TA"
     organization: "CMPT 354 Database Systems · Simon Fraser University"
-    dates: "Spring 2022"
+    dates: "Spring 2022, Fall 2026"
 experience:
-  - role: "Research Assistant"
-    organization: "Chinese Academy of Sciences · Permanent Full-time"
+  - role: "Assistant Researcher"
+    organization: "Shenyang Institute of Automation, Chinese Academy of Sciences · Permanent Full-time"
     dates: "2018–2021"
 education:
   - degree: Ph.D. in Computing Science
     institution: Simon Fraser University
     dates: 2021–Present
   - degree: Master's in Software Engineering
-    institution: Northeastern University
+    institution: Northeastern University(CN)
     dates: 2015–2018
   - degree: Bachelor's in Information Security
-    institution: Northeastern University
+    institution: Northeastern University(CN)
     dates: 2011–2015
 ---
 

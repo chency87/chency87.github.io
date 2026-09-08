@@ -53,10 +53,10 @@ education:
   institution: Simon Fraser University
   dates: 2021–Present
 - degree: Master's in Software Engineering
-  institution: Northeastern University
+  institution: Northeastern University(CN)
   dates: 2015–2018
 - degree: Bachelor's in Information Security
-  institution: Northeastern University
+  institution: Northeastern University(CN)
   dates: 2011–2015
 publications:
 - title: '**ParSEval: Interactive Counterexample-driven Evaluation for Text-to-SQL**'
@@ -77,7 +77,7 @@ publications:
   authors: Q. Wang, F. Zhou, B. Zhou, J. Xu, **Chunyu Chen**, et al.
   venue: IEEE Transactions on Dependable and Secure Computing
 experience:
-- role: Research Assistant
+- role: Assistant Researcher
   organization: Shenyang Institute of Automation, Chinese Academy of Sciences
   dates: 2018–2021
   summary: Developed industrial control and edge computing security systems, protocol fuzzing tools, and anomaly
@@ -85,11 +85,11 @@ experience:
     guidance to students.
 teaching:
 - role: Teaching Assistant
-  organization: CMPT 733 · Simon Fraser University
-  dates: Spring 2025
+  organization: CMPT 733 Big Data Programming II · Simon Fraser University
+  dates: Spring 2025, Spring 2026
 - role: Teaching Assistant
-  organization: CMPT 354 · Simon Fraser University
-  dates: Spring 2022
+  organization: CMPT 354 Database Systems · Simon Fraser University
+  dates: Spring 2022, Fall 2026
 projects_heading: Projects
 skills:
 - category: Programming

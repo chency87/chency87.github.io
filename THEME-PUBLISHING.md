@@ -2,17 +2,18 @@
 
 The release-ready standalone repository is at `/home/user/hugo-theme-brief`,
 on branch `main`. Its origin is `git@github.com:chency87/hugo-theme-brief.git`.
-The GitHub repository has not yet been created or pushed: API authentication
-failed in the development environment.
+The theme repository is published and tracking `origin/main`.
 
 ## Publish the theme
 
-Create an empty public GitHub repository named `hugo-theme-brief` under `chency87`
-(without an initial README, license, or .gitignore), then run:
+The theme repository already exists at `github.com/chency87/hugo-theme-brief`
+and this local checkout is tracking `origin/main`.
+
+When you make theme changes, publish them with:
 
 ```sh
 cd /home/user/hugo-theme-brief
-git push -u origin main
+git push
 ```
 
 The repository contains only reusable theme files, documentation, licensing, and
@@ -69,3 +70,45 @@ through the browser; no standalone PDF or export script is maintained.
 
 Listing in the Hugo theme directory is a separate optional step after publication;
 it requires preview screenshots and a submission to the directory.
+
+## Submit Brief to themes.gohugo.io
+
+The Hugo themes website is built from `gohugoio/hugoThemesSiteBuilder` and does
+not accept direct pushes from this site repository or from GitHub Pages workflows.
+Submission is done with a pull request that adds the theme repository URL to
+`themes.txt`.
+
+### 1) Ensure required files are present in the theme repository
+
+From `/home/user/hugo-theme-brief` verify:
+
+- `theme.toml` exists with required metadata (already present).
+- `hugo.toml` exists with module Hugo version constraints (already present).
+- `README.md` exists with absolute image links if screenshots are embedded.
+- `images/screenshot.png` or `images/screenshot.jpg` exists (3:2, at least 1500x1000).
+- `images/tn.png` or `images/tn.jpg` exists (3:2, at least 900x600).
+
+At the moment, the `images/` directory and required preview files are missing.
+
+### 2) Add the missing preview images and push
+
+```sh
+cd /home/user/hugo-theme-brief
+mkdir -p images
+# Add screenshot and thumbnail files in images/
+git add images/screenshot.png images/tn.png
+git commit -m "Add Hugo themes preview images"
+git push
+```
+
+Use `.jpg` instead of `.png` if preferred; keep the expected filenames.
+
+### 3) Open a submission PR to Hugo themes directory
+
+1. Fork `https://github.com/gohugoio/hugoThemesSiteBuilder`.
+2. Add `github.com/chency87/hugo-theme-brief` to `themes.txt` in lexicographical order.
+3. Commit with a message such as `Add theme hugo-theme-brief`.
+4. Open a pull request and wait for the Netlify preview to pass.
+
+The themes site rebuilds on a schedule, so listing may appear after the next
+successful rebuild window.
