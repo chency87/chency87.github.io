@@ -54,11 +54,11 @@ education:
   - degree: Ph.D. in Computing Science
     institution: Simon Fraser University
     dates: 2021–Present
-  - degree: Master's in Software Engineering
-    institution: Northeastern University(CN)
+  - degree: M.S. in Software Engineering
+    institution: Northeastern University (CN)
     dates: 2015–2018
-  - degree: Bachelor's in Information Security
-    institution: Northeastern University(CN)
+  - degree: B.S. in Information Security
+    institution: Northeastern University (CN)
     dates: 2011–2015
 ---
 
