@@ -1,0 +1,31 @@
+baseURL = 'https://chency87.github.io/'
+languageCode = 'en-us'
+theme = 'brief'
+title = 'Chunyu Chen' # Replace with your preferred public name.
+
+[markup.goldmark.extensions.extras.superscript]
+  enable = true
+
+[params]
+  color_mode = 'auto' # 'light', 'dark', or 'auto' (follow system preference).
+  show_theme_toggle = true # Let visitors choose and remember their colour mode.
+  description = 'Research, publications, and projects.'
+  # Add real destinations to show these links throughout the site.
+  email = 'chunyu_chen@sfu.ca'
+  scholar = ''
+  github = 'https://github.com/chency87'
+  linkedin = 'https://www.linkedin.com/in/chunyu-chen-7aab82221/'
+  cv = '/cv/' # HTML CV page with browser printing.
+  social_image = '' # For example: /images/social-preview.jpg.
+  footer = true
+  footer_github = 'https://github.com/chency87/hugo-theme-brief'
+
+[[menus.main]]
+  name = 'About'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Contact'
+  pageRef = '/contact'
+  weight = 30
