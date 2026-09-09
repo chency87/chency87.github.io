@@ -13,8 +13,8 @@ section_order: [publications, projects, education, teaching, experience]
 # Text fields support Markdown; quote values containing formatting.
 # Use 'Name ^\*^' for equal contributors; single quotes preserve the backslash.
 publications:
-  - title: "Building SQL Equivalence Proofs from Query Rewrite Rules"
-    authors: "Chunyu Chen, Xinyi Huang, and Zhengjie Miao. "
+  - title: "**Building SQL Equivalence Proofs from Query Rewrite Rules**"
+    authors: "**Chunyu Chen**, Xinyi Huang, and Zhengjie Miao"
     venue: CIDR 2027 under review
   - title: "**EVE-Bench: Diagnostic Evaluation of LLMs’ Capabilities in SQL Reasoning**"
     authors: 'Xinyi Huang **^\*^**, **Chunyu Chen ^\*^**, Zhengjie Miao'
