@@ -106,23 +106,22 @@ courses:
 awards:
   - title: SFU GF + CMPT CS GF
     dates:  "Fall 2022 & Fall 2021 & Fall 2023"
-  
-# - title: Excellent Award in New Staff Tutor System Level Assessment
-#   organization: Shenyang Institute of Automation, Chinese Academy of Sciences
-#   dates: '2019'
-# - title: First Prize Academic Scholarship
-#   dates: September 2015 and September 2016
-# - title: Yantai Governance Scholarship
-#   dates: November 2016
-# - title: Second Prize Scholarship
-#   organization: Software School, Northeastern University
-#   dates: September 2014
-# - title: Second Prize, 7th National Student Information Security Competition
-#   dates: July 2014
-# - title: Meritorious Winner, Mathematical Contest in Modeling
-#   dates: April 2014
-# - title: Second Prize, China Undergraduate Mathematical Contest in Modeling
-#   dates: October 2013
-# - title: Science and Technology Innovation Activity Award
-#   dates: June 2013
+  - title: Excellent Award in New Staff Tutor System Level Assessment
+    organization: Shenyang Institute of Automation, Chinese Academy of Sciences
+    dates: '2019'
+  - title: First Prize Academic Scholarship
+    dates: September 2015 and September 2016
+  - title: Yantai Governance Scholarship
+    dates: November 2016
+  - title: Second Prize Scholarship
+    organization: Software School, Northeastern University
+    dates: September 2014
+  - title: Second Prize, 7th National Student Information Security Competition
+    dates: July 2014
+  - title: Meritorious Winner, Mathematical Contest in Modeling
+    dates: April 2014
+  - title: Second Prize, China Undergraduate Mathematical Contest in Modeling
+    dates: October 2013
+  - title: Science and Technology Innovation Activity Award
+    dates: June 2013
 ---
